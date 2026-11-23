@@ -33,8 +33,7 @@ public class Transaction {
     @JoinColumn(name = "fuel_id", nullable = false)
     private Fuel fuel;
 
-    // ===== Getters and Setters =====
-    // (If you use Lombok, you can replace all of this with @Data)
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
